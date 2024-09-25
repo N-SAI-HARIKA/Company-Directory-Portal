@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', 'Times New Roman', 'Times New Roman', Times , serif,;
+}
+body{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero{
+    margin-right: px;
+    width: 90%;
+    padding: 20px;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+.registration{
+    text-align: initial;
+    background-color: rgb(231, 245, 253);
+    border-radius: 10px ;
+    padding: 20px;
+    border: 1px solid skyblue;
+}
+.registration h2{
+    text-align: center;
+}
+input{
+    padding: 5px;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+button{
+    background-color: #007bff;
+    color: white;
+    width: 100%;
+    height: 30px;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+}
+label{
+    font-weight: bolder;
+}
+select{
+    padding-left: 10px;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+.list{
+    font-size: large;
+    border-radius: 5px ;
+    background-color: rgb(244, 244, 244);
+    text-align: initial;
+    list-style-position: inside;
+    padding: 30px;
+    height: 200px;
+
+}
+.list h3{
+    text-align: center;
+}
+a{
+    color: #007bff;
+    font-size: medium;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.table-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+td img {
+    border-radius: 50%;
+}
+.map iframe{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+}
